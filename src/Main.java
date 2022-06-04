@@ -6,11 +6,11 @@ public class Main {
 
         if (pay > 1000) {
             percent = 1;
-        }else {
+        } else {
             percent = 0;
         }
-        int bonus = pay/100*percent;
-        int all = account+pay + bonus;
+        int bonus = pay / 100 * percent;
+        int all = account + pay + bonus;
         System.out.println("Итого на вашем счете:" + all);
     }
 }
